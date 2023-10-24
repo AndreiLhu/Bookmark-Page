@@ -1,7 +1,11 @@
+import Features from './pages/Features/Features';
+import Home from './pages/Home/Home';
+
 function App() {
   return (
     <>
-      <h1>App.tsx</h1>
+      <Home />
+      <Features />
     </>
   );
 }
