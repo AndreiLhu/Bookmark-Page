@@ -2,7 +2,8 @@ import React from 'react';
 
 import './Features.css';
 import data from '../../data/features.json';
-import FeaturesContent from '../../components/FeaturesContent';
+import FeaturesContent from '../../components/FeaturesContent/FeaturesContent';
+
 const Features: React.FC = () => {
   const [featuresIndex, setFeaturesIndex] = React.useState<number>(0);
   const { features } = data;
@@ -12,7 +13,7 @@ const Features: React.FC = () => {
   }, []);
   return (
     <>
-      <div id="features">
+      <div id="features" className="featuresContainer">
         <div className="featuresTextContainer">
           <h1>Features</h1>
           <p>
@@ -21,20 +22,20 @@ const Features: React.FC = () => {
             can access them on the go.
           </p>
         </div>
-        <div>
-          <ul className="mainFeaturesContaier">
+        <div className="secondFeaturesContainer">
+          <ul className="buttonsDiv">
             {features.map((featuresInfo, index) => (
-              <div key={index}>
-                <button
-                  key={index}
-                  onClick={() => onChangeFeatures(index)}
-                  className="featuresButton"
-                >
-                  {featuresInfo.tab}
-                </button>
-              </div>
+              <button
+                key={index}
+                onClick={() => onChangeFeatures(index)}
+                className="featuresButton"
+              >
+                {featuresInfo.tab}
+              </button>
             ))}
           </ul>
+          <div className="buttonsLine"></div>
+
           <FeaturesContent
             title={features[featuresIndex].title}
             description={features[featuresIndex].description}
@@ -42,6 +43,7 @@ const Features: React.FC = () => {
           />
         </div>
       </div>
+      <div className="featuresBackground"></div>
     </>
   );
 };

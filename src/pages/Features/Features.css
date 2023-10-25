@@ -1,3 +1,10 @@
+.featuresContainer {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.secondFeaturesContainer {
+  margin: auto;
+}
 .featuresTextContainer {
   text-align: center;
   max-width: 400px;
@@ -11,6 +18,41 @@
   color: hsl(229, 8%, 60%);
   margin-top: 20px;
 }
-.mainFeaturesContainer {
-  margin-left: 200px;
+
+.featuresButton {
+  border: none;
+  background-color: transparent;
+  margin: auto;
+}
+.buttonsDiv {
+  padding: 30px;
+  margin: auto;
+  display: flex;
+  max-width: 50%;
+}
+.buttonsDiv button {
+  color: hsl(229, 8%, 60%);
+}
+.buttonsDiv button:hover {
+  text-decoration: underline;
+  transition: 0.3s;
+  color: rgb(93, 93, 93);
+}
+
+.buttonsLine {
+  margin: auto;
+  width: 500px;
+  height: 1px;
+  background-color: hsl(229, 8%, 60%);
+  margin-bottom: 40px;
+}
+
+.featuresBackground {
+  height: 300px;
+  width: 500px;
+  background-color: hsl(231, 69%, 60%);
+  position: absolute;
+  z-index: -1;
+  border-radius: 0 50% 50% 0;
+  top: 120%;
 }

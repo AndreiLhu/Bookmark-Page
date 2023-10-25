@@ -1,0 +1,28 @@
+.featuresContentDiv {
+  display: flex;
+  justify-content: space-between;
+}
+.featuresContentTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.featuresContentDescription {
+  color: hsl(229, 8%, 60%);
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.featuresContentContainer {
+  max-width: 400px;
+  margin-top: 50px;
+}
+.featuresContentButton {
+  border: none;
+  background-color: hsl(231, 69%, 60%);
+  padding: 5px 15px 5px 15px;
+  border-radius: 3px;
+  color: white;
+}
+.featuresImage img {
+  max-width: 500px;
+}
