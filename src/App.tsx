@@ -1,7 +1,7 @@
 import Header from './components/Header/Header';
-import Extension from './pages/Extension/Extension';
 import Features from './pages/Features/Features';
 import Home from './pages/Home/Home';
+import Pricing from './pages/Pricing/Pricing';
 import Questions from './pages/Questions/Questions';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Home />
       <Features />
-      <Extension />
+      <Pricing />
       <Questions />
     </>
   );

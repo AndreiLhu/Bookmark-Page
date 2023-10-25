@@ -1,20 +1,24 @@
+import logo from '../../../images/logo-bookmark.svg';
 import './Header.css';
 const Header: React.FC = () => {
   return (
     <>
       <div className="mainHeaderContainer">
-        {/* <Link to="/">
-          <img src={logo} alt="logo" className="navLogo" />
-        </Link> */}
+        <div>
+          <a href="#">
+            <img src={logo} alt="logoBookmark" className="logoBookmark" />
+          </a>
+        </div>
 
-        <div className="headerContainer">
-          <a href="#home">Home</a>
+        <div className="linksContainer">
+          <a href="#home">HOME</a>
 
-          <a href="#extension">Extension</a>
+          <a href="#pricing">PRICING</a>
 
-          <a href="#features">Features</a>
+          <a href="#features">FEATURES</a>
 
-          <a href="#questions">Questions</a>
+          <a href="#questions">QUESTIONS</a>
+          <button className="loginButton">LOGIN</button>
         </div>
       </div>
     </>

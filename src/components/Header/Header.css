@@ -1,3 +1,27 @@
-.headerContainer {
+.mainHeaderContainer {
+  display: flex;
   position: fixed;
+  background-color: white;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px 0px 10px 0px;
+}
+.linksContainer {
+  margin-right: 10px;
+}
+.linksContainer a {
+  margin: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  font-weight: 400;
+}
+.loginButton {
+  font-size: 16px;
+  color: white;
+  background-color: hsl(0, 94%, 66%);
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px 5px 10px;
+  font-weight: 400;
 }

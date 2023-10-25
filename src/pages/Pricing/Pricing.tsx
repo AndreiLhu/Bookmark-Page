@@ -1,8 +1,8 @@
-const Extension: React.FC = () => {
+const Pricing: React.FC = () => {
   return (
     <>
-      <div id="extension">
-        <h1>Extension</h1>
+      <div id="pricing">
+        <h1>Pricing</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum omnis
           delectus praesentium ipsa voluptates veniam est? Quae vitae delectus
@@ -31,4 +31,4 @@ const Extension: React.FC = () => {
     </>
   );
 };
-export default Extension;
+export default Pricing;
