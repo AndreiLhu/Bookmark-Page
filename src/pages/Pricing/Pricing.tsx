@@ -2,6 +2,7 @@ import React from 'react';
 import './Pricing.css';
 import data from '../../data/extensionCard.json';
 import ExtensionCard from '../../components/ExtensionCard/ExtensionCard';
+import { Link } from 'react-router-dom';
 const Pricing: React.FC = () => {
   const { extensionCard } = data;
 
@@ -22,6 +23,10 @@ const Pricing: React.FC = () => {
                 version={cardInfo.version}
                 dots_image={cardInfo.dots_image}
               />
+
+              <a href={cardInfo.link} target="blank">
+                link{' '}
+              </a>
             </div>
           ))}
         </ul>

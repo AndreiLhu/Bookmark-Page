@@ -4,6 +4,7 @@ interface ExtensionCardProps {
   title: string;
   version: string;
   dots_image: string;
+  link?: string;
 }
 
 const ExtensionCard = ({
@@ -11,6 +12,7 @@ const ExtensionCard = ({
   title,
   version,
   dots_image,
+  link,
 }: ExtensionCardProps) => {
   return (
     <div className="extensionCardContainer">
@@ -18,6 +20,7 @@ const ExtensionCard = ({
       <h4>{title}</h4>
       <p>{version}</p>
       <img src={dots_image} alt="dots_image" />
+      <a href={link} />
     </div>
   );
 };
