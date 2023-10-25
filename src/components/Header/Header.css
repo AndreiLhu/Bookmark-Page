@@ -5,15 +5,16 @@
   width: 100%;
   justify-content: space-between;
   padding: 10px 0px 10px 0px;
+  margin-left: 150px;
 }
 .linksContainer {
-  margin-right: 10px;
+  margin-right: 300px;
 }
 .linksContainer a {
   margin: 20px;
   text-decoration: none;
   font-size: 16px;
-  color: black;
+  color: hsl(229, 8%, 60%);
   font-weight: 400;
 }
 .loginButton {

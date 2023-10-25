@@ -1,3 +1,47 @@
 .mainHomeContainer {
   display: flex;
+  padding-top: 150px;
+  justify-content: space-between;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.homeTextContainer {
+  max-width: 400px;
+  align-self: center;
+  margin-top: -50px;
+}
+.homeTextContainer h1 {
+  font-size: 40px;
+}
+.homeTextContainer p {
+  color: hsl(229, 8%, 60%);
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.homeImage img {
+  max-width: 550px;
+}
+.homeTextContainer button {
+  padding: 7px 20px 7px 20px;
+  border: none;
+  border-radius: 3px;
+  font-weight: 400;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.22);
+}
+.chromeButton {
+  margin-right: 5px;
+  color: white;
+  background-color: hsl(231, 69%, 60%);
+}
+.homeBackground {
+  height: 300px;
+  width: 500px;
+  background-color: hsl(231, 69%, 60%);
+  bottom: 35%;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  border-radius: 50% 0 0 50%;
 }
