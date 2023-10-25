@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './Features.css';
 import data from '../../data/features.json';
 import FeaturesContent from '../../components/FeaturesContent/FeaturesContent';

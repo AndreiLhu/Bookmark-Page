@@ -1,0 +1,22 @@
+{
+  "extensionCard": [
+    {
+      "browser_image": "../../images/logo-chrome.svg",
+      "title": "Add to Chrome",
+      "version": "Minimum version 62",
+      "dots_image": "../../images/bg-dots.svg"
+    },
+    {
+      "browser_image": "../../images/logo-firefox.svg",
+      "title": "Add to Chrome",
+      "version": "Minimum version 55",
+      "dots_image": "../../images/bg-dots.svg"
+    },
+    {
+      "browser_image": "../../images/logo-opera.svg",
+      "title": "Add to Chrome",
+      "version": "Minimum version 46",
+      "dots_image": "../../images/bg-dots.svg"
+    }
+  ]
+}
