@@ -53,6 +53,6 @@
   background-color: hsl(231, 69%, 60%);
   position: absolute;
   z-index: -1;
-  border-radius: 0 50% 50% 0;
-  top: 120%;
+  border-radius: 0 500px 500px 0;
+  top: 110%;
 }
