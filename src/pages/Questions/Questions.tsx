@@ -2,13 +2,16 @@ import React from 'react';
 import './Questions.css';
 import data from '../../data/questions.json';
 import QuestionCard from '../../components/QuestionCard/QuestionCard';
+import { AiOutlineDown, AiOutlineUp } from 'react-icons/ai';
+
 const Questions: React.FC = () => {
   const [isQuestionOpen, setIsQuestionOpen] = React.useState<boolean>(false);
   const [questionIndex, setQuestionIndex] = React.useState<number>(0);
   const { questions } = data;
-  const onShowPlanetContent = React.useCallback((index: number) => {
+  const onShowQuestionContent = React.useCallback((index: number) => {
     setQuestionIndex(index);
   }, []);
+
   const toggleQuestion = () => setIsQuestionOpen(!isQuestionOpen);
 
   return (
@@ -21,26 +24,38 @@ const Questions: React.FC = () => {
         </p>
       </div>
       <div className="mainQuestionsDiv">
-        <div className="destinationInfoContainer">
-          <ul className="planetsNameButtonsContainer">
+        <div className="">
+          <ul className="mainQuestionsUl">
             {questions.map((questionContent, index) => (
-              <button type="button" onClick={() => toggleQuestion()}>
-                <button
+              <button
+                key={index}
+                type="button"
+                onClick={() => toggleQuestion()}
+                className="mainQuestionNameButton"
+              >
+                <span
                   key={index}
-                  onClick={() => onShowPlanetContent(index)}
-                  className="planetsNameButton"
+                  onClick={() => onShowQuestionContent(index)}
+                  className="questionNameButton"
                 >
-                  {questionContent.title}
-
-                  {isQuestionOpen ? 'close' : 'open'}
-                </button>
+                  <div className="questionTitleButton">
+                    {questionContent.title}
+                    {isQuestionOpen && questionIndex === index ? (
+                      <AiOutlineUp />
+                    ) : (
+                      <AiOutlineDown />
+                    )}
+                    <div>
+                      {isQuestionOpen && questionIndex === index && (
+                        <QuestionCard
+                          content={questions[questionIndex].content}
+                        />
+                      )}
+                    </div>
+                  </div>
+                </span>
               </button>
             ))}
-            <div>
-              {isQuestionOpen && (
-                <QuestionCard content={questions[questionIndex].content} />
-              )}
-            </div>
           </ul>
         </div>
       </div>
