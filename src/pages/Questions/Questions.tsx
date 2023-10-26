@@ -3,7 +3,7 @@ const Questions: React.FC = () => {
     <>
       <div id="questions">
         <h1>Questions</h1>
-        <p>
+        {/* <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum omnis
           delectus praesentium ipsa voluptates veniam est? Quae vitae delectus
           fugit possimus quod aut blanditiis dolore et velit quo cumque
@@ -26,7 +26,7 @@ const Questions: React.FC = () => {
           reprehenderit accusamus excepturi, voluptatibus ex repellendus vero
           voluptate aspernatur doloribus minus a consequatur dolorem soluta
           dolores? Blanditiis voluptatibus iure beatae minima.
-        </p>
+        </p> */}
       </div>
     </>
   );

@@ -1,6 +1,21 @@
+.pricingMainDiv {
+  margin-bottom: 100px;
+}
 .cardContainer {
   display: flex;
   justify-content: center;
+}
+
+.cardStyleContainer:nth-child(1) {
+  margin-bottom: 30px;
+}
+.cardStyleContainer:nth-child(2) {
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
+.cardStyleContainer:nth-child(3) {
+  margin-top: 60px;
+  margin-bottom: -40px;
 }
 
 .cardStyleContainer {

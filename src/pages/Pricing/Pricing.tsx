@@ -7,7 +7,7 @@ const Pricing: React.FC = () => {
 
   return (
     <>
-      <div id="pricing">
+      <div id="pricing" className="pricingMainDiv">
         <div className="pricingTextContainer">
           <h1>Download the extension</h1>
           <p>
