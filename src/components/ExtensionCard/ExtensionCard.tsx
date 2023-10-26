@@ -1,5 +1,5 @@
 import './ExtensionCard.css';
-interface ExtensionCardProps {
+interface IExtensionCardProps {
   browser_image: string;
   title: string;
   version: string;
@@ -13,7 +13,7 @@ const ExtensionCard = ({
   version,
   dots_image,
   link,
-}: ExtensionCardProps) => {
+}: IExtensionCardProps) => {
   return (
     <div className="extensionCardContainer">
       <img src={browser_image} alt="browser_image" />
