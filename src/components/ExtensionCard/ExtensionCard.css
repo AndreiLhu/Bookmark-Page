@@ -1,0 +1,14 @@
+.extensionCardContainer {
+  text-align: center;
+}
+.extensionCardTitle {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.extensionCardVersion {
+  color: hsl(229, 8%, 60%);
+  margin-top: 10px;
+}
+.extensionCardDotsImage {
+  max-width: 90%;
+}

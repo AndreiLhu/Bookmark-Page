@@ -17,9 +17,14 @@ const ExtensionCard = ({
   return (
     <div className="extensionCardContainer">
       <img src={browser_image} alt="browser_image" />
-      <h4>{title}</h4>
-      <p>{version}</p>
-      <img src={dots_image} alt="dots_image" />
+      <h4 className="extensionCardTitle">{title}</h4>
+      <p className="extensionCardVersion">{version}</p>
+      <img
+        src={dots_image}
+        alt="dots_image"
+        className="extensionCardDotsImage"
+      />
+
       <a href={link} />
     </div>
   );
