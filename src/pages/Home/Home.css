@@ -32,8 +32,16 @@
 }
 .chromeButton {
   margin-right: 5px;
-  color: white;
   background-color: hsl(231, 69%, 60%);
+}
+.chromeButton a {
+  color: white;
+  text-decoration: none;
+}
+
+.firefoxButton a {
+  text-decoration: none;
+  color: black;
 }
 .homeBackground {
   height: 300px;

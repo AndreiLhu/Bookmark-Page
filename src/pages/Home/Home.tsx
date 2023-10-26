@@ -11,8 +11,19 @@ const Home: React.FC = () => {
             Open a new browser tab and see your sites load instantly. Try it for
             free.
           </p>
-          <button className="chromeButton">Get it on Chrome</button>
-          <button className="firefoxButton"> Get it on Firefox </button>
+          <button className="chromeButton">
+            <a href="https://www.google.de/" target="blank">
+              Get it on Chrome
+            </a>
+          </button>
+          <button className="firefoxButton">
+            <a
+              href="https://mozilla.org/en-GB/firefox/new/?utm_medium=paidsearch&utm_source=google-rsa&utm_campaign=fxeu&utm_content=A144_A203_302573&gclid=CjwKCAjwnOipBhBQEiwACyGLumUIEDDfq2yaO1rjW-WiUF5hB6sqOGDG_f54LfRIx3a8yBgLjdGwixoCQIQQAvD_BwE"
+              target="blank"
+            >
+              Get it on Firefox
+            </a>
+          </button>
         </div>
         <div className="homeImage">
           <img src={homeImage} alt="homeImage" />
