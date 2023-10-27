@@ -39,12 +39,15 @@ const Questions: React.FC = () => {
                   className="questionNameButton"
                 >
                   <div className="questionTitleButton">
-                    {questionContent.title}
-                    {isQuestionOpen && questionIndex === index ? (
-                      <AiOutlineUp />
-                    ) : (
-                      <AiOutlineDown />
-                    )}
+                    <div className="questionArrowContainer">
+                      {questionContent.title}
+
+                      {isQuestionOpen && questionIndex === index ? (
+                        <AiOutlineUp />
+                      ) : (
+                        <AiOutlineDown />
+                      )}
+                    </div>
                     <div>
                       {isQuestionOpen && questionIndex === index && (
                         <QuestionCard
@@ -52,10 +55,14 @@ const Questions: React.FC = () => {
                         />
                       )}
                     </div>
+                    <div className="questionsUnderline"></div>
                   </div>
                 </span>
               </button>
             ))}
+            <button className="questionLastButton" type="button">
+              More Info
+            </button>
           </ul>
         </div>
       </div>

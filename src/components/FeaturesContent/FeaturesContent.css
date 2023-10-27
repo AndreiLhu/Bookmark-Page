@@ -23,6 +23,13 @@
   border-radius: 3px;
   color: white;
 }
+
+.featuresContentButton:hover {
+  background-color: white;
+  color: hsl(229, 31%, 21%);
+  border: 2px solid hsl(231, 69%, 60%);
+}
+
 .featuresImage img {
   max-width: 500px;
 }

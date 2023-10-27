@@ -1,3 +1,4 @@
+import './QuestionCard.css';
 interface IQuestionCardProps {
   title?: string;
   content: string;
@@ -5,7 +6,7 @@ interface IQuestionCardProps {
 
 const QuestionCard = ({ title, content }: IQuestionCardProps) => {
   return (
-    <div>
+    <div className="questionCardDiv">
       <h3>{title}</h3>
       <p>{content}</p>
     </div>

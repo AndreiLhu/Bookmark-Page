@@ -38,11 +38,26 @@
   color: white;
   text-decoration: none;
 }
+.chromeButton:hover {
+  background-color: white;
+  border: 2px solid hsl(231, 69%, 60%);
+}
+.chromeButton:hover a {
+  color: hsl(229, 31%, 21%);
+}
 
 .firefoxButton a {
   text-decoration: none;
   color: black;
 }
+.firefoxButton:hover {
+  background-color: white;
+  border: 2px solid hsl(231, 69%, 60%);
+}
+.firefoxButton:hover a {
+  color: hsl(229, 31%, 21%);
+}
+
 .homeBackground {
   height: 300px;
   width: 500px;

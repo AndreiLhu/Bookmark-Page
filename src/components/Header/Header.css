@@ -27,3 +27,8 @@
   padding: 5px 10px 5px 10px;
   font-weight: 400;
 }
+.loginButton:hover {
+  background-color: white;
+  color: hsl(229, 31%, 21%);
+  border: 2px solid hsl(0, 94%, 66%);
+}
