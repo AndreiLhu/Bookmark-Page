@@ -1,5 +1,5 @@
 .mainQuestionsDivContainer {
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   margin-top: 150px;
 }
 .titleQuestionsDiv {
@@ -59,7 +59,5 @@
 }
 
 .questionLastButton:hover {
-  background-color: white;
-  color: hsl(229, 31%, 21%);
-  border: 2px solid hsl(231, 69%, 60%);
+  background-color: hsl(231, 59%, 50%);
 }

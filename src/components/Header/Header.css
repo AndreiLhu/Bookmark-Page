@@ -28,7 +28,5 @@
   font-weight: 400;
 }
 .loginButton:hover {
-  background-color: white;
-  color: hsl(229, 31%, 21%);
-  border: 2px solid hsl(0, 94%, 66%);
+  background-color: rgb(246, 74, 74);
 }

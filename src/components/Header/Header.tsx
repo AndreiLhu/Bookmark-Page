@@ -11,13 +11,13 @@ const Header: React.FC = () => {
         </div>
 
         <nav className="linksContainer">
-          <a href="#home">HOME</a>
+          {/* <a href="#home">HOME</a> */}
 
           <a href="#features">FEATURES</a>
 
           <a href="#pricing">PRICING</a>
 
-          <a href="#questions">QUESTIONS</a>
+          <a href="#contact">CONTACT</a>
 
           <button className="loginButton">LOGIN</button>
         </nav>

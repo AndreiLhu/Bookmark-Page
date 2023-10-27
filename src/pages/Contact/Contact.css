@@ -1,0 +1,47 @@
+.mainContactContainer {
+  text-align: center;
+  background-color: hsl(231, 69%, 60%);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.contactTextDiv {
+  max-width: 300px;
+  margin: auto;
+}
+
+.mainContactContainer p {
+  color: white;
+  font-size: 10px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.mainContactContainer h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+.inputContact {
+  background-color: rgb(241, 241, 241);
+  padding: 5px 10px 5px 10px;
+  border: none;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+.inputContact:focus {
+  outline: none;
+}
+.inputContact:hover {
+  background-color: white;
+}
+
+.buttonContact {
+  background-color: hsl(0, 94%, 66%);
+  color: white;
+  padding: 5px 10px 5px 10px;
+  border: none;
+  border-radius: 3px;
+}
+.buttonContact:hover {
+  background-color: rgb(246, 74, 74);
+}

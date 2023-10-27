@@ -14,6 +14,7 @@
 .homeTextContainer h1 {
   font-size: 40px;
 }
+
 .homeTextContainer p {
   color: hsl(229, 8%, 60%);
   font-size: 16px;
@@ -39,11 +40,10 @@
   text-decoration: none;
 }
 .chromeButton:hover {
-  background-color: white;
-  border: 2px solid hsl(231, 69%, 60%);
+  background-color: hsl(231, 59%, 50%);
 }
-.chromeButton:hover a {
-  color: hsl(229, 31%, 21%);
+.firefoxButton {
+  background-color: rgb(241, 241, 241);
 }
 
 .firefoxButton a {
@@ -52,10 +52,6 @@
 }
 .firefoxButton:hover {
   background-color: white;
-  border: 2px solid hsl(231, 69%, 60%);
-}
-.firefoxButton:hover a {
-  color: hsl(229, 31%, 21%);
 }
 
 .homeBackground {
