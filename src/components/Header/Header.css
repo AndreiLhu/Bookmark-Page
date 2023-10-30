@@ -1,4 +1,4 @@
-.mainHeaderContainer {
+.main-header-container {
   display: flex;
   position: fixed;
   background-color: white;
@@ -8,17 +8,17 @@
   padding-left: 150px;
 }
 
-.linksContainer {
+.links-container {
   margin-right: 300px;
 }
-.linksContainer a {
+.links-container a {
   margin: 20px;
   text-decoration: none;
   font-size: 16px;
   color: hsl(229, 8%, 60%);
   font-weight: 400;
 }
-.loginButton {
+.login-button {
   font-size: 16px;
   color: white;
   background-color: hsl(0, 94%, 66%);
@@ -27,6 +27,6 @@
   padding: 5px 10px 5px 10px;
   font-weight: 400;
 }
-.loginButton:hover {
+.login-button:hover {
   background-color: rgb(246, 74, 74);
 }

@@ -15,14 +15,14 @@ const ExtensionCard = ({
   link,
 }: IExtensionCardProps) => {
   return (
-    <div className="extensionCardContainer">
+    <div className="extension-card-container">
       <img src={browser_image} alt="browser_image" />
-      <h4 className="extensionCardTitle">{title}</h4>
-      <p className="extensionCardVersion">{version}</p>
+      <h4 className="extension-card-title">{title}</h4>
+      <p className="extension-card-version">{version}</p>
       <img
         src={dots_image}
         alt="dots_image"
-        className="extensionCardDotsImage"
+        className="extension-card-dots-image"
       />
 
       <a href={link} />

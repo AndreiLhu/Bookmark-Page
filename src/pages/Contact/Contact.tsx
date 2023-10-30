@@ -5,32 +5,32 @@ const Contact: React.FC = () => {
   const [error, setError] = React.useState<string>();
   const emailRegex =
     /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-  const handleSubmit: React.FormEventHandler<HTMLFormElement> = (e) => {
-    e.preventDefault();
+  const handleSubmit: React.FormEventHandler<HTMLFormElement> = (event) => {
+    event.preventDefault();
 
     const input = email.trim();
 
     if (input && input.length && emailRegex.test(input)) {
       setError(undefined);
-      alert('Input received successfully. Not actually sent anywhere');
+      alert('Thank you!');
     } else {
-      setError("Whoops, make sure it's an email");
+      setError('Enter your email!');
     }
   };
   return (
-    <div id="contact" className="mainContactContainer">
-      <div className="contactTextDiv">
+    <div id="contact" className="main-contact-container">
+      <div className="contact-text-div">
         <p className="contact-subtitle">35,000+ already joined</p>
         <h2 className="title contact-title">
           Stay up-to-date with what we're doing
         </h2>
       </div>
-      <div className="inputContactContainer">
+      <div className="input-contact-container">
         <form className="contact-form" onSubmit={handleSubmit}>
           <div className={`email-wrapper ${error ? 'error' : ''}`}>
             <input
               type="email"
-              className={`inputContact ${error ? 'error' : ''}`}
+              className={`input-contact ${error ? 'error' : ''}`}
               placeholder="Enter your email adress"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -42,8 +42,9 @@ const Contact: React.FC = () => {
             >
               {error}
             </div>
+
+            <button className="button-contact">Contact Us</button>
           </div>
-          <button className="buttonContact">Contact Us</button>
         </form>
       </div>
     </div>

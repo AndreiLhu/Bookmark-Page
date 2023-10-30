@@ -1,8 +1,8 @@
-.mainQuestionsDivContainer {
+.main-questions-div-container {
   padding-bottom: 100px;
   margin-top: 150px;
 }
-.titleQuestionsDiv {
+.title-questions-div {
   max-width: 450px;
   margin: auto;
 
@@ -10,45 +10,45 @@
   text-align: center;
 }
 
-.titleQuestionsDiv h1 {
+.title-questions-div h1 {
   margin-bottom: 30px;
 }
-.titleQuestionsDiv p {
+.title-questions-div p {
   font-size: 16px;
   color: hsl(229, 8%, 60%);
   margin-top: 20px;
 }
-.mainQuestionsUl {
+.main-questions-ul {
   display: flex;
   flex-direction: column;
 }
-.questionNameButton {
+.question-name-button {
   border: none;
   background-color: transparent;
 }
-.mainQuestionNameButton {
+.main-question-name-button {
   border: none;
   background-color: transparent;
   margin-top: 15px;
 }
-.questionTitleButton {
+.question-title-button {
   border: none;
   background-color: transparent;
   margin-bottom: 20px;
   max-width: 500px;
   margin: auto;
 }
-.questionsUnderline {
+.questions-underline {
   border-bottom: 1px solid hsl(229, 8%, 60%);
   margin-top: 20px;
 }
-.questionArrowContainer {
+.question-arrow-container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
 }
 
-.questionLastButton {
+.question-last-button {
   margin: auto;
   margin-top: 40px;
   background-color: hsl(231, 69%, 60%);
@@ -58,6 +58,6 @@
   color: white;
 }
 
-.questionLastButton:hover {
+.question-last-button:hover {
   background-color: hsl(231, 59%, 50%);
 }

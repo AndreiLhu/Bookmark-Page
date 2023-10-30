@@ -1,4 +1,4 @@
-.mainHomeContainer {
+.main-home-container {
   display: flex;
   padding-top: 150px;
   justify-content: space-between;
@@ -6,55 +6,55 @@
   margin-left: 150px;
 }
 
-.homeTextContainer {
+.home-text-container {
   max-width: 400px;
   align-self: center;
   margin-top: -50px;
 }
-.homeTextContainer h1 {
+.home-text-container h1 {
   font-size: 40px;
 }
 
-.homeTextContainer p {
+.home-text-container p {
   color: hsl(229, 8%, 60%);
   font-size: 16px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.homeImage img {
+.home-image img {
   max-width: 550px;
 }
-.homeTextContainer button {
+.home-text-container button {
   padding: 7px 20px 7px 20px;
   border: none;
   border-radius: 3px;
   font-weight: 400;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.22);
 }
-.chromeButton {
+.chrome-button {
   margin-right: 5px;
   background-color: hsl(231, 69%, 60%);
 }
-.chromeButton a {
+.chrome-button a {
   color: white;
   text-decoration: none;
 }
-.chromeButton:hover {
+.chrome-button:hover {
   background-color: hsl(231, 59%, 50%);
 }
-.firefoxButton {
+.firefox-button {
   background-color: rgb(241, 241, 241);
 }
 
-.firefoxButton a {
+.firefox-button a {
   text-decoration: none;
   color: black;
 }
-.firefoxButton:hover {
+.firefox-button:hover {
   background-color: white;
 }
 
-.homeBackground {
+.home-background {
   height: 300px;
   width: 500px;
   background-color: hsl(231, 69%, 60%);

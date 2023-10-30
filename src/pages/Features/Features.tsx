@@ -12,8 +12,8 @@ const Features: React.FC = () => {
   }, []);
   return (
     <>
-      <div id="features" className="featuresContainer">
-        <div className="featuresTextContainer">
+      <div id="features" className="features-container">
+        <div className="features-text-container">
           <h1>Features</h1>
           <p>
             Our aim is to make it quick and easy for you to access your
@@ -21,19 +21,19 @@ const Features: React.FC = () => {
             can access them on the go.
           </p>
         </div>
-        <div className="secondFeaturesContainer">
-          <ul className="buttonsDiv">
+        <div className="second-features-container">
+          <ul className="buttons-div">
             {features.map((featuresInfo, index) => (
               <button
                 key={index}
                 onClick={() => onChangeFeatures(index)}
-                className="featuresButton"
+                className="features-button"
               >
                 {featuresInfo.tab}
               </button>
             ))}
           </ul>
-          <div className="buttonsLine"></div>
+          <div className="buttons-line"></div>
 
           <FeaturesContent
             title={features[featuresIndex].title}
@@ -42,7 +42,7 @@ const Features: React.FC = () => {
           />
         </div>
       </div>
-      <div className="featuresBackground"></div>
+      <div className="features-background"></div>
     </>
   );
 };

@@ -7,17 +7,17 @@ const Pricing: React.FC = () => {
 
   return (
     <>
-      <div id="pricing" className="pricingMainDiv">
-        <div className="pricingTextContainer">
+      <div id="pricing" className="pricing-main-div">
+        <div className="pricing-text-container">
           <h1>Download the extension</h1>
           <p>
             We've got more browsers in the pipeline. Please do let us know if
             you've got a favourite you'd like us to prioritize.
           </p>
         </div>
-        <ul className="cardContainer">
+        <ul className="card-container">
           {extensionCard.map((cardInfo, index) => (
-            <div key={index} className="cardStyleContainer">
+            <div key={index} className="card-style-container">
               <ExtensionCard
                 browser_image={cardInfo.browser_image}
                 title={cardInfo.title}
@@ -28,10 +28,10 @@ const Pricing: React.FC = () => {
               <a
                 href={cardInfo.link}
                 target="blank"
-                className="extensionCardLink"
+                className="extension-card-link"
               >
                 <div>
-                  <button className="textLinkExtension">
+                  <button className="text-link-extension">
                     Add & Install Extension
                   </button>
                 </div>

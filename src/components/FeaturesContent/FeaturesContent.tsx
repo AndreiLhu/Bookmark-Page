@@ -13,15 +13,15 @@ const FeaturesContent = ({
   description,
 }: FeaturesContentProps) => {
   return (
-    <div className="featuresContentDiv">
-      <div className="featuresImage">
+    <div className="features-content-div">
+      <div className="features-image">
         <img src={source_image} alt="Features_Image" />
       </div>
-      <div className="featuresContentContainer">
-        <h4 className="featuresContentTab">{tab}</h4>
-        <h2 className="featuresContentTitle">{title}</h2>
-        <p className="featuresContentDescription">{description}</p>
-        <button className="featuresContentButton">More info</button>
+      <div className="features-content-container">
+        <h4 className="features-content-tab">{tab}</h4>
+        <h2 className="features-content-title">{title}</h2>
+        <p className="features-content-description">{description}</p>
+        <button className="features-content-button">More info</button>
       </div>
     </div>
   );

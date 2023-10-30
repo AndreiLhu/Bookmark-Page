@@ -1,11 +1,11 @@
-.featuresContainer {
+.features-container {
   margin-left: 150px;
   margin-right: 150px;
 }
-.secondFeaturesContainer {
+.second-features-container {
   margin: auto;
 }
-.featuresTextContainer {
+.features-text-container {
   text-align: center;
   max-width: 400px;
   padding-top: 50px;
@@ -13,33 +13,33 @@
   font-weight: 400;
 }
 
-.featuresTextContainer p {
+.features-text-container p {
   font-size: 16px;
   color: hsl(229, 8%, 60%);
   margin-top: 20px;
 }
 
-.featuresButton {
+.features-button {
   border: none;
   background-color: transparent;
   margin: auto;
 }
-.buttonsDiv {
+.buttons-div {
   padding: 30px;
   margin: auto;
   display: flex;
   max-width: 50%;
 }
-.buttonsDiv button {
+.buttons-div button {
   color: hsl(229, 8%, 60%);
 }
-.buttonsDiv button:hover {
+.buttons-div button:hover {
   text-decoration: underline;
   transition: 0.3s;
   color: rgb(93, 93, 93);
 }
 
-.buttonsLine {
+.buttons-line {
   margin: auto;
   width: 500px;
   height: 1px;
@@ -47,7 +47,7 @@
   margin-bottom: 40px;
 }
 
-.featuresBackground {
+.features-background {
   height: 300px;
   width: 500px;
   background-color: hsl(231, 69%, 60%);

@@ -1,24 +1,24 @@
-.pricingMainDiv {
+.pricing-main-div {
   margin-bottom: 100px;
 }
-.cardContainer {
+.card-container {
   display: flex;
   justify-content: center;
 }
 
-.cardStyleContainer:nth-child(1) {
+.card-style-container:nth-child(1) {
   margin-bottom: 30px;
 }
-.cardStyleContainer:nth-child(2) {
+.card-style-container:nth-child(2) {
   margin-top: 30px;
   margin-bottom: -10px;
 }
-.cardStyleContainer:nth-child(3) {
+.card-style-container:nth-child(3) {
   margin-top: 60px;
   margin-bottom: -40px;
 }
 
-.cardStyleContainer {
+.card-style-container {
   max-width: 250px;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.12);
   padding-top: 30px;
@@ -26,11 +26,11 @@
   margin-right: 30px;
 }
 
-.extensionCardLink {
+.extension-card-link {
   text-align: center;
 }
 
-.pricingTextContainer {
+.pricing-text-container {
   max-width: 450px;
   margin: auto;
   margin-top: 200px;
@@ -38,13 +38,13 @@
   text-align: center;
 }
 
-.pricingTextContainer p {
+.pricing-text-container p {
   color: hsl(229, 8%, 60%);
   font-size: 16px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.textLinkExtension {
+.text-link-extension {
   margin-top: 10px;
   color: white;
   padding: 7px 20px 7px 20px;
@@ -53,6 +53,6 @@
   background-color: hsl(231, 69%, 60%);
   border: none;
 }
-.textLinkExtension:hover {
+.text-link-extension:hover {
   background-color: hsl(231, 59%, 50%);
 }

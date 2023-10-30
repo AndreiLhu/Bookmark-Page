@@ -15,31 +15,31 @@ const Questions: React.FC = () => {
   const toggleQuestion = () => setIsQuestionOpen(!isQuestionOpen);
 
   return (
-    <div id="questions" className="mainQuestionsDivContainer">
-      <div className="titleQuestionsDiv">
+    <div id="questions" className="main-questions-div-container">
+      <div className="title-questions-div">
         <h1>Frequently Asked Questions</h1>
         <p>
           Here are some of our FAQs. If you have any other questions you'd like
           answered please feel free to email us.
         </p>
       </div>
-      <div className="mainQuestionsDiv">
+      <div className="main-questions-div">
         <div className="">
-          <ul className="mainQuestionsUl">
+          <ul className="main-questions-ul">
             {questions.map((questionContent, index) => (
               <button
                 key={index}
                 type="button"
                 onClick={() => toggleQuestion()}
-                className="mainQuestionNameButton"
+                className="main-question-name-button"
               >
                 <span
                   key={index}
                   onClick={() => onShowQuestionContent(index)}
-                  className="questionNameButton"
+                  className="question-name-button"
                 >
-                  <div className="questionTitleButton">
-                    <div className="questionArrowContainer">
+                  <div className="question-title-button">
+                    <div className="question-arrow-container">
                       {questionContent.title}
 
                       {isQuestionOpen && questionIndex === index ? (
@@ -55,12 +55,12 @@ const Questions: React.FC = () => {
                         />
                       )}
                     </div>
-                    <div className="questionsUnderline"></div>
+                    <div className="questions-underline"></div>
                   </div>
                 </span>
               </button>
             ))}
-            <button className="questionLastButton" type="button">
+            <button className="question-last-button" type="button">
               More Info
             </button>
           </ul>

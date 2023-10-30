@@ -3,14 +3,14 @@ import './Header.css';
 const Header: React.FC = () => {
   return (
     <>
-      <header className="mainHeaderContainer">
+      <header className="main-header-container">
         <div>
           <a href="#">
-            <img src={logo} alt="logoBookmark" className="logoBookmark" />
+            <img src={logo} alt="logo-bookmark" className="logo-bookmark" />
           </a>
         </div>
 
-        <nav className="linksContainer">
+        <nav className="links-container">
           {/* <a href="#home">HOME</a> */}
 
           <a href="#features">FEATURES</a>
@@ -19,7 +19,7 @@ const Header: React.FC = () => {
 
           <a href="#contact">CONTACT</a>
 
-          <button className="loginButton">LOGIN</button>
+          <button className="login-button">LOGIN</button>
         </nav>
       </header>
     </>

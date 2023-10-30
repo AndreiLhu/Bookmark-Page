@@ -1,15 +1,15 @@
-.mainContactContainer {
+.main-contact-container {
   text-align: center;
   background-color: hsl(231, 69%, 60%);
   padding-top: 50px;
   padding-bottom: 50px;
 }
-.contactTextDiv {
+.contact-text-div {
   max-width: 300px;
   margin: auto;
 }
 
-.mainContactContainer p {
+.main-contact-container p {
   color: white;
   font-size: 10px;
   letter-spacing: 1px;
@@ -17,31 +17,31 @@
   margin-bottom: 20px;
 }
 
-.mainContactContainer h2 {
+.main-contact-container h2 {
   color: white;
   margin-bottom: 20px;
 }
-.inputContact {
+.input-contact {
   background-color: rgb(241, 241, 241);
   padding: 5px 10px 5px 10px;
   border: none;
   border-radius: 3px;
   margin-right: 5px;
 }
-.inputContact:focus {
+.input-contact:focus {
   outline: none;
 }
-.inputContact:hover {
+.input-contact:hover {
   background-color: white;
 }
 
-.buttonContact {
+.button-contact {
   background-color: hsl(0, 94%, 66%);
   color: white;
   padding: 5px 10px 5px 10px;
   border: none;
   border-radius: 3px;
 }
-.buttonContact:hover {
+.button-contact:hover {
   background-color: rgb(246, 74, 74);
 }
