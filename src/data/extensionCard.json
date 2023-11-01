@@ -1,24 +1,24 @@
 {
   "extensionCard": [
     {
-      "browser_image": "../assets/logo-chrome.svg",
+      "browser_image": "../../images/logo-chrome.svg",
       "title": "Add to Chrome",
       "version": "Minimum version 62",
-      "dots_image": "../assets/bg-dots.svg",
+      "dots_image": "../../images/bg-dots.svg",
       "link": "https://www.google.de/"
     },
     {
-      "browser_image": "../assets/logo-firefox.svg",
+      "browser_image": "../../images/logo-firefox.svg",
       "title": "Add to Firefox",
       "version": "Minimum version 55",
-      "dots_image": "../assets/bg-dots.svg",
+      "dots_image": "../../images/bg-dots.svg",
       "link": "https://www.mozilla.org/en-US/firefox/new/?redirect_source=firefox-com"
     },
     {
-      "browser_image": "../assets/logo-opera.svg",
+      "browser_image": "../../images/logo-opera.svg",
       "title": "Add to Opera",
       "version": "Minimum version 46",
-      "dots_image": "../assets/bg-dots.svg",
+      "dots_image": "../../images/bg-dots.svg",
       "link": "https://www.opera.com/"
     }
   ]
