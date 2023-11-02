@@ -1,4 +1,4 @@
-import logo from '../../../images/logo-bookmark.svg';
+import logo from '../../assets/images/logo-bookmark.svg';
 import './Header.css';
 const Header: React.FC = () => {
   return (

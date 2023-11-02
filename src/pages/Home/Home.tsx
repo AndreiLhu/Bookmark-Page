@@ -1,5 +1,5 @@
 import './Home.css';
-import homeImage from '../../../images/illustration-hero.svg';
+import homeImage from '../../assets/images/illustration-hero.svg';
 const Home: React.FC = () => {
   return (
     <>
