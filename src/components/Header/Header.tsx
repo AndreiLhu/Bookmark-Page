@@ -1,4 +1,4 @@
-import logo from '../../assets/images/logo-bookmark.svg';
+import logo from '../../../public/images/logo-bookmark.svg';
 import './Header.css';
 const Header: React.FC = () => {
   return (
@@ -11,8 +11,6 @@ const Header: React.FC = () => {
         </div>
 
         <nav className="links-container">
-          {/* <a href="#home">HOME</a> */}
-
           <a href="#features">FEATURES</a>
 
           <a href="#pricing">PRICING</a>

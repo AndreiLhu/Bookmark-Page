@@ -1,7 +1,7 @@
 import './Footer.css';
-import logo from '../../assets/images/logo-bookmark-white.svg';
-import facebook from '../../assets/images/icon-facebook.svg';
-import twitter from '../../assets/images/icon-twitter.svg';
+import logo from '../../../public/images/logo-bookmark-white.svg';
+import facebook from '../../../public/images/icon-facebook.svg';
+import twitter from '../../../public/images/icon-twitter.svg';
 
 const Footer: React.FC = () => {
   return (
