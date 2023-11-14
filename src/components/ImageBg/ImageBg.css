@@ -25,7 +25,11 @@
   .imageBg-image {
     max-width: 500px;
   }
+}
+
+@media screen and (max-width: 500px) {
   .home-background {
-    /* display: none; */
+    height: 250px;
+    width: 300px;
   }
 }

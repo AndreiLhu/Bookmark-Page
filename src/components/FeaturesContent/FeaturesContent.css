@@ -2,11 +2,7 @@
   display: flex;
   justify-content: space-between;
 }
-@media screen and (max-width: 800px) {
-  .features-content-div {
-    display: block;
-  }
-}
+
 .features-content-title {
   font-size: 30px;
   margin-bottom: 20px;
@@ -20,6 +16,7 @@
 .features-content-container {
   max-width: 400px;
   margin-top: 50px;
+  margin-left: 15px;
 }
 .features-content-button {
   border: none;
@@ -34,5 +31,23 @@
 }
 
 .features-image img {
-  width: 100%;
+  width: 500px;
+}
+
+@media screen and (max-width: 1000px) {
+  .features-content-div {
+    display: block;
+  }
+  .features-content-container {
+    margin: auto;
+    padding-top: 50px;
+  }
+  .features-image {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 550px) {
+  .features-image img {
+    width: 350px;
+  }
 }

@@ -5,12 +5,12 @@ const Home: React.FC = () => {
   return (
     <>
       <div className="main-home-container" id="home">
-        {/* <ImageBg
+        <ImageBg
           image_source={homeImage}
           alt="home-image"
           className="home-image"
           content={<div className="home-ground"> </div>}
-        /> */}
+        />
         <div className="home-text-container">
           <h1> A Simple Bookmark Manager</h1>
           <p>
@@ -32,12 +32,12 @@ const Home: React.FC = () => {
             </a>
           </button>
         </div>
-        <ImageBg
+        {/* <ImageBg
           image_source={homeImage}
           alt="home-image"
           className="home-image"
           content={<div className="home-ground"> </div>}
-        />
+        /> */}
 
         {/* <div className="home-image">
           <img src={homeImage} alt="home-image" />
