@@ -1,6 +1,6 @@
 .features-container {
-  margin-left: 150px;
-  margin-right: 150px;
+  /* margin-left: 150px; */
+  /* margin-right: 150px; */
 }
 .second-features-container {
   margin: auto;
@@ -39,15 +39,15 @@
   color: rgb(93, 93, 93);
 }
 
-.buttons-line {
+/* .buttons-line {
   margin: auto;
   width: 500px;
   height: 1px;
   background-color: hsl(229, 8%, 60%);
   margin-bottom: 40px;
-}
+} */
 
-.features-background {
+/* .features-background {
   height: 300px;
   width: 500px;
   background-color: hsl(231, 69%, 60%);
@@ -55,4 +55,4 @@
   z-index: -1;
   border-radius: 0 500px 500px 0;
   top: 110%;
-}
+} */
