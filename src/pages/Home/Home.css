@@ -16,6 +16,17 @@
   font-size: 40px;
 }
 
+.home-background {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+  height: 300px;
+  width: 500px;
+  background-color: hsl(231, 69%, 60%);
+  border-radius: 500px 0 0 500px;
+}
+
 .home-text-container p {
   color: hsl(229, 8%, 60%);
   font-size: 16px;
@@ -68,5 +79,12 @@
   .home-text-container {
     margin: auto;
     padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .home-background {
+    height: 250px;
+    width: 300px;
   }
 }

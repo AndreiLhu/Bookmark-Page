@@ -10,7 +10,7 @@ const ImageBg = ({ image_source, content }: IImageBgProps) => {
   return (
     <div className="imageBg-container">
       <img src={image_source} alt="Image" className="imageBg-image" />
-      <div className="home-background">{content}</div>
+      <div>{content}</div>
     </div>
   );
 };

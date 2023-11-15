@@ -1,6 +1,7 @@
 .features-container {
   margin-left: 150px;
   margin-right: 150px;
+  position: relative;
 }
 .second-features-container {
   margin: auto;
@@ -47,21 +48,28 @@
   margin-bottom: 40px;
 }
 
-/* .features-background {
+.features-background {
   height: 300px;
   width: 500px;
   background-color: hsl(231, 69%, 60%);
   position: absolute;
   z-index: -1;
   border-radius: 0 500px 500px 0;
-  top: 110%;
-} */
+  margin-left: -150px;
+  bottom: -50px;
+  /* top: 120%; */
+}
 
 @media screen and (max-width: 1000px) {
   .features-container {
     margin: 0;
     padding: 0;
     text-align: center;
+  }
+
+  .features-background {
+    margin-left: -100px;
+    bottom: 150px;
   }
 }
 @media screen and (max-width: 550px) {
@@ -78,5 +86,11 @@
     border-bottom: 0.5px solid hsl(229, 8%, 60%);
     padding-bottom: 15px;
     width: 350px;
+  }
+
+  .features-background {
+    height: 250px;
+    width: 300px;
+    margin-left: 0;
   }
 }

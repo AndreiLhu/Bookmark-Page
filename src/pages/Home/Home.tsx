@@ -9,7 +9,7 @@ const Home: React.FC = () => {
           image_source={homeImage}
           alt="home-image"
           className="home-image"
-          content={<div className="home-ground"> </div>}
+          content={<div className="home-background"> </div>}
         />
         <div className="home-text-container">
           <h1> A Simple Bookmark Manager</h1>

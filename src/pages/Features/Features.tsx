@@ -41,8 +41,8 @@ const Features: React.FC = () => {
             source_image={features[featuresIndex].source_image}
           />
         </div>
+        <div className="features-background"></div>
       </div>
-      <div className="features-background"></div>
     </>
   );
 };
