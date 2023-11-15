@@ -20,7 +20,7 @@ const MobileNavigation: React.FC = () => {
     <div className="main-mobile-navigation-container">
       <div className="logo-nav-container">
         <div>
-          {isMovileNavigationOpen ? (
+          {/* {isMovileNavigationOpen ? (
             <a href="#">
               <img src={whiteLogo} alt="logo" className="nav-mobile-logo" />
             </a>
@@ -28,7 +28,10 @@ const MobileNavigation: React.FC = () => {
             <a href="#">
               <img src={logo} alt="logo" className="nav-mobile-logo" />
             </a>
-          )}
+          )} */}
+          <a href="#">
+            <img src={logo} alt="logo" className="nav-mobile-logo" />
+          </a>
         </div>
         <div>
           <button
