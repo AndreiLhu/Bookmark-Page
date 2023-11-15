@@ -32,18 +32,7 @@ const Home: React.FC = () => {
             </a>
           </button>
         </div>
-        {/* <ImageBg
-          image_source={homeImage}
-          alt="home-image"
-          className="home-image"
-          content={<div className="home-ground"> </div>}
-        /> */}
-
-        {/* <div className="home-image">
-          <img src={homeImage} alt="home-image" />
-        </div> */}
       </div>
-      {/* <div className="home-background"></div> */}
     </>
   );
 };

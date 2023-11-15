@@ -1,4 +1,4 @@
-/* .main-header-container {
+.main-header-container {
   display: flex;
   position: fixed;
   background-color: white;
@@ -29,4 +29,4 @@
 }
 .login-button:hover {
   background-color: rgb(246, 74, 74);
-} */
+}
