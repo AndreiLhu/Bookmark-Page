@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../../public/images/logo-bookmark.svg';
-import whiteLogo from '../../../public/images/logo-bookmark-white.svg';
+// import whiteLogo from '../../../public/images/logo-bookmark-white.svg';
 // import iconClose from '../../../public/images/icon-close.svg';
 import { TfiMenu } from 'react-icons/tfi';
 import './MobileNavigation.css';
