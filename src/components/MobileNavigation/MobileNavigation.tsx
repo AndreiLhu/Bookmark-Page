@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../../../public/images/logo-bookmark.svg';
-import whiteLogo from '../../../public/images/logo-bookmark-white.svg';
+// import whiteLogo from '../../../public/images/logo-bookmark-white.svg';
 // import iconClose from '../../../public/images/icon-close.svg';
 import { TfiMenu } from 'react-icons/tfi';
 import './MobileNavigation.css';
@@ -20,7 +20,7 @@ const MobileNavigation: React.FC = () => {
     <div className="main-mobile-navigation-container">
       <div className="logo-nav-container">
         <div>
-          {isMovileNavigationOpen ? (
+          {/* {isMovileNavigationOpen ? (
             <a href="#">
               <img src={whiteLogo} alt="logo" className="nav-mobile-logo" />
             </a>
@@ -28,7 +28,10 @@ const MobileNavigation: React.FC = () => {
             <a href="#">
               <img src={logo} alt="logo" className="nav-mobile-logo" />
             </a>
-          )}
+          )} */}
+          <a href="#">
+            <img src={logo} alt="logo" className="nav-mobile-logo" />
+          </a>
         </div>
         <div>
           <button
