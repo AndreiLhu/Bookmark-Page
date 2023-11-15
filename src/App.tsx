@@ -1,5 +1,6 @@
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
+import MobileNavigation from './components/MobileNavigation/MobileNavigation';
 import Contact from './pages/Contact/Contact';
 import Features from './pages/Features/Features';
 
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <Header />
+      <MobileNavigation />
       <Home />
       <Features />
       <Pricing />

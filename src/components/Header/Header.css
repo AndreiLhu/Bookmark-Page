@@ -30,3 +30,8 @@
 .login-button:hover {
   background-color: rgb(246, 74, 74);
 }
+@media screen and (max-width: 750px) {
+  .main-header-container {
+    display: none;
+  }
+}
