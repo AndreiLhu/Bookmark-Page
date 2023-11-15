@@ -4,11 +4,9 @@ const Header: React.FC = () => {
   return (
     <>
       <header className="main-header-container">
-        <div>
-          <a href="#">
-            <img src={logo} alt="logo-bookmark" className="logo-bookmark" />
-          </a>
-        </div>
+        <a href="#">
+          <img src={logo} alt="logo-bookmark" className="logo-bookmark" />
+        </a>
 
         <nav className="links-container">
           <a href="#features">FEATURES</a>

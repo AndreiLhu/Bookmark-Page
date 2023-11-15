@@ -1,9 +1,16 @@
 import './Home.css';
 import homeImage from '../../../public/images/illustration-hero.svg';
+import ImageBg from '../../components/ImageBg/ImageBg';
 const Home: React.FC = () => {
   return (
     <>
       <div className="main-home-container" id="home">
+        <ImageBg
+          image_source={homeImage}
+          alt="home-image"
+          className="home-image"
+          content={<div className="home-background"> </div>}
+        />
         <div className="home-text-container">
           <h1> A Simple Bookmark Manager</h1>
           <p>
@@ -25,11 +32,7 @@ const Home: React.FC = () => {
             </a>
           </button>
         </div>
-        <div className="home-image">
-          <img src={homeImage} alt="home-image" />
-        </div>
       </div>
-      <div className="home-background"></div>
     </>
   );
 };

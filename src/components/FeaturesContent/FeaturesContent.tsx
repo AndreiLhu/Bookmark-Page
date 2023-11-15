@@ -2,7 +2,7 @@ import './FeaturesContent.css';
 
 interface FeaturesContentProps {
   tab?: string;
-  source_image: string;
+  source_image?: string;
   title: string;
   description: string;
 }

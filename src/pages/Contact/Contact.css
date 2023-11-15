@@ -45,3 +45,18 @@
 .button-contact:hover {
   background-color: rgb(246, 74, 74);
 }
+
+@media screen and (max-width: 550px) {
+  .email-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+  }
+  .input-contact {
+    margin: 0;
+  }
+  .button-contact {
+    margin-top: 10px;
+  }
+}
