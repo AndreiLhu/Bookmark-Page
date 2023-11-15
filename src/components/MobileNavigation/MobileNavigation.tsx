@@ -1,9 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import logo from '../../../public/images/logo-bookmark.svg';
-import { AiOutlineClose } from 'react-icons/ai';
-import { FiMenu } from 'react-icons/fi';
+import whiteLogo from '../../../public/images/logo-bookmark-white.svg';
+// import iconClose from '../../../public/images/icon-close.svg';
+import { TfiMenu } from 'react-icons/tfi';
 import './MobileNavigation.css';
+import { AiOutlineClose } from 'react-icons/ai';
+import facebook from '../../../public/images/icon-facebook.svg';
+import twitter from '../../../public/images/icon-twitter.svg';
 
 const MobileNavigation: React.FC = () => {
   const [isMovileNavigationOpen, setIsMobileNavigationOpen] =
@@ -17,9 +20,15 @@ const MobileNavigation: React.FC = () => {
     <div className="main-mobile-navigation-container">
       <div className="logo-nav-container">
         <div>
-          <a href="#">
-            <img src={logo} alt="logo" className="nav-mobile-logo" />
-          </a>
+          {isMovileNavigationOpen ? (
+            <a href="#">
+              <img src={whiteLogo} alt="logo" className="nav-mobile-logo" />
+            </a>
+          ) : (
+            <a href="#">
+              <img src={logo} alt="logo" className="nav-mobile-logo" />
+            </a>
+          )}
         </div>
         <div>
           <button
@@ -27,7 +36,12 @@ const MobileNavigation: React.FC = () => {
             type="button"
             onClick={() => toggleMobileNavigation()}
           >
-            {isMovileNavigationOpen ? <AiOutlineClose /> : <FiMenu />}
+            {isMovileNavigationOpen ? (
+              // <img src={iconClose} alt="icon" className="icon-close" />
+              <AiOutlineClose />
+            ) : (
+              <TfiMenu />
+            )}
           </button>
         </div>
       </div>
@@ -47,6 +61,23 @@ const MobileNavigation: React.FC = () => {
           <div className="link-list">
             <a href="#contact" onClick={() => toggleMobileNavigation()}>
               CONTACT
+            </a>
+          </div>
+          <button className="login-button__navigation">LOGIN</button>
+          <div className="social-icons-container__navigation">
+            <a href="https://www.facebook.com/">
+              <img
+                src={facebook}
+                alt="logo-facebook"
+                className="logo-facebook__navigation"
+              />
+            </a>
+            <a href="https://twitter.com/">
+              <img
+                src={twitter}
+                alt="logo-twitter"
+                className="logo-twitter__navigation"
+              />
             </a>
           </div>
         </div>
