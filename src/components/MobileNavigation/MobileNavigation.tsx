@@ -1,10 +1,9 @@
 import React from 'react';
 import logo from '../../../public/images/logo-bookmark.svg';
-// import whiteLogo from '../../../public/images/logo-bookmark-white.svg';
-// import iconClose from '../../../public/images/icon-close.svg';
+import whiteLogo from '../../../public/images/logo-bookmark-white.svg';
+import iconClose from '../../../public/images/icon-close.svg';
 import { TfiMenu } from 'react-icons/tfi';
 import './MobileNavigation.css';
-import { AiOutlineClose } from 'react-icons/ai';
 import facebook from '../../../public/images/icon-facebook.svg';
 import twitter from '../../../public/images/icon-twitter.svg';
 
@@ -18,9 +17,13 @@ const MobileNavigation: React.FC = () => {
 
   return (
     <div className="main-mobile-navigation-container">
-      <div className="logo-nav-container">
+      <div
+        className={`logo-nav-container ${
+          isMovileNavigationOpen && 'logo-nav-container-dark'
+        }`}
+      >
         <div>
-          {/* {isMovileNavigationOpen ? (
+          {isMovileNavigationOpen ? (
             <a href="#">
               <img src={whiteLogo} alt="logo" className="nav-mobile-logo" />
             </a>
@@ -28,10 +31,7 @@ const MobileNavigation: React.FC = () => {
             <a href="#">
               <img src={logo} alt="logo" className="nav-mobile-logo" />
             </a>
-          )} */}
-          <a href="#">
-            <img src={logo} alt="logo" className="nav-mobile-logo" />
-          </a>
+          )}
         </div>
         <div>
           <button
@@ -40,8 +40,7 @@ const MobileNavigation: React.FC = () => {
             onClick={() => toggleMobileNavigation()}
           >
             {isMovileNavigationOpen ? (
-              // <img src={iconClose} alt="icon" className="icon-close" />
-              <AiOutlineClose />
+              <img src={iconClose} alt="icon" className="icon-close" />
             ) : (
               <TfiMenu />
             )}

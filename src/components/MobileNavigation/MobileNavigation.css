@@ -19,6 +19,9 @@
   width: 100%;
   justify-content: space-between;
 }
+.logo-nav-container-dark {
+  background-color: hsl(229, 31%, 21%, 0.9);
+}
 
 .nav-list {
   text-align: center;
@@ -66,4 +69,8 @@
   justify-content: center;
   margin-top: 100px;
   gap: 100px;
+}
+
+.icon-close {
+  width: 20px;
 }
